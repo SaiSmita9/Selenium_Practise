@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="use_of_property_file.ReadDataFromExcelUsingPOI_Testng"/>
+      <class name="use_of_data_provider.DatadrivenUsingDataprovider"/>
+      <class name="use_of_property_file.Browser_Test"/>
+      <class name="use_of_config_file.property_file_use"/>
+      <class name="use_of_data_provider.MercuryloginWithDataProvider"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

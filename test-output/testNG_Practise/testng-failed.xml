@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testNG_Practise]">
+  <test thread-count="5" name="Parameterization_With_xml(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="testNG_Practise.Parameterization_With_xml">
+        <methods>
+          <include name="parameterizedTest"/>
+        </methods>
+      </class> <!-- testNG_Practise.Parameterization_With_xml -->
+    </classes>
+  </test> <!-- Parameterization_With_xml(failed) -->
+</suite> <!-- Failed suite [testNG_Practise] -->
